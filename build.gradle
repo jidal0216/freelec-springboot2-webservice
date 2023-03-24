@@ -1,3 +1,5 @@
+
+
 buildscript {
     ext {
         springBootVersion = '2.1.9.RELEASE'
@@ -24,6 +26,7 @@ repositories {
     mavenCentral()
     jcenter()
 }
+
 
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
